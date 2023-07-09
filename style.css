@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --bg-color: rgb(63, 63, 180);
+    --bg-color-noite:rgb(75, 72, 116) ;
+    --font-color: rgba(238, 238, 238, 0.904);
+    --secondary-font-color: black;
+    --container-color: rgb(194, 192, 192);
+}
+
+
+body{
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    text-align: center;
+    margin: 10% 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 1% auto;
+    padding: 2% 0;
+    border-radius: 20px;
+    background-color: var(--container-color);
+    gap:50px;
+    box-shadow: 3px 3px 10px rgba(22, 22, 22, 0.514);
+}
+
+.container__horario{
+    color: var(--secondary-font-color);
+    font-size: 1.8rem;
+}
+
+
+.container__imagem-img{
+    border:2px solid;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+
+}
+
+footer{
+    font-style: italic;
+}
+
